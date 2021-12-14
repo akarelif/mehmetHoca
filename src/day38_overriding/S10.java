@@ -5,6 +5,7 @@ public class S10 {
 	public static void main(String[] args) {
 		M m =new M();
 		M n = new N();
+		@SuppressWarnings("unused")
 		M o = new O();
 		O oo = new O();
 		m.product(3);
