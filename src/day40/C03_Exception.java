@@ -15,6 +15,7 @@ public class C03_Exception {
 		// ArrayIndexOutOfBoundsException
 		// InputMismatchException
 		try {
+			@SuppressWarnings("resource")
 			Scanner scan = new Scanner(System.in);
 			System.out.println("lutfen Elementi Yazdirmak Ýcin Ýndex Giriniz");
 			int index=scan.nextInt();

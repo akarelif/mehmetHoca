@@ -11,6 +11,7 @@ public class C04_FileInputStream {
 		// Java'da bir dasyaya ulasmak istedigimizde FileINputStream class'indan yardim aliriz
 		
 	
+		
 		FileInputStream fis = new FileInputStream("src\\day40\\yazi.txt");
 		
 		// Java bu kodda olasi  bir problem ongoruyor
