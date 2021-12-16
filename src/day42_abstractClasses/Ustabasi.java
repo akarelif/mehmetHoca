@@ -1,4 +1,4 @@
-package day42_AbstractClasses;
+package day42_abstractClasses;
 
 public class Ustabasi extends Ýsci{
 	

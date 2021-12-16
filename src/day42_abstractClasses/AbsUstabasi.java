@@ -1,4 +1,4 @@
-package day42_AbstractClasses;
+package day42_abstractClasses;
 
 public class AbsUstabasi extends Abs›sci{
 
@@ -33,6 +33,7 @@ public class AbsUstabasi extends Abs›sci{
 		
 	}
 
+	@Override
 	public void abstractMethod() {
 		
 		// Personel class'indan geldi

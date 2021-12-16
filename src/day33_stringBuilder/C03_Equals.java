@@ -2,6 +2,7 @@ package day33_stringBuilder;
 
 public class C03_Equals {
 
+	@SuppressWarnings("unlikely-arg-type")
 	public static void main(String[] args) {
 		
 		StringBuilder sb1 = new StringBuilder("Java");
