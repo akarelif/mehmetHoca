@@ -19,11 +19,14 @@ public class C01_Iterator {
 		
 		System.out.println(liste);
 		
-		// index kullanmadan tum elemanlari 3 eklenmis olarak yazdirin
+		// Ýndex kullanmadan tum elemanlari 3 eklenmis olarak yazdirin
+		
 		for (Integer each : liste) {
 			
 			System.out.print(each+3 + " ");
+			
 		}	 // 8 6 10 4 12 11 5 	
+		
 		System.out.println("");
 		System.out.println(liste); //[5, 3, 7, 1, 9, 8, 2]
 		
@@ -35,8 +38,8 @@ public class C01_Iterator {
 		System.out.println("");
 		System.out.println(liste);
 		
-		// foreach loop ile index kullanmadan tum elementlere ulasabiliyoruz ama 
-		// kalici degisiklik yapamiyoruz
+		// Foreach loop ile index kullanmadan tum elementlere ulasabiliyoruz ama 
+		// Kalici degisiklik yapamiyoruz
 	}
 
 }

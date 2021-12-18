@@ -8,6 +8,7 @@ public class C03_Iterator {
 
 	@SuppressWarnings("rawtypes")
 	public static void main(String[] args) {
+		
 		List <Integer> liste = new ArrayList<>();
 		liste.add(5);
 		liste.add(3);
@@ -27,7 +28,7 @@ public class C03_Iterator {
 		
 		System.out.println(ite1.next()); // 1
 		
-		ite1.remove(); // son dondurdugu elemnti siler
+		ite1.remove(); // Son dondurdugu elemnti siler
 		
 		 // System.out.println(ite1.remove());
 		// ite1.remove();

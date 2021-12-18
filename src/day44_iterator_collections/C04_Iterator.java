@@ -8,7 +8,8 @@ public class C04_Iterator {
 
 	@SuppressWarnings("rawtypes")
 	public static void main(String[] args) {
-		// iterator kullanarak tum elementleri silin
+		
+		// Ýterator kullanarak tum elementleri silin
 		
 		List <Integer> liste = new ArrayList<>();
 		liste.add(5);
